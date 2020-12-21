@@ -1,0 +1,110 @@
+/* Global Styles */ 
+html{
+    font-size: 10px; 
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(244, 244, 244);
+    color: #333;
+}
+
+
+/* Text */ 
+
+.title{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 6rem;
+    color: rgb(106, 83, 112);
+    text-align: center;
+}
+
+.label{
+    font-size: 3rem;
+    margin-bottom: .2rem;
+    text-transform: uppercase; 
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+small{
+    font-size: 1.3rem; 
+}
+
+.card-title{
+    font-style: italic; 
+    font-weight: 900; 
+    font-size: 2rem;
+}
+
+
+
+
+/* Form */ 
+.form{
+    display: grid; 
+    margin: 0 5vw;
+}
+
+.input{
+    font-size: 2.7rem;
+    padding: .5rem 2rem;
+    line-height: 2.3vh;
+
+    border-radius: 8px;
+    border: solid 1px gray; 
+    margin-bottom: 1rem;
+}
+
+.button{
+    font-size: 2.7rem;
+    padding: 1rem 2rem;
+    line-height: auto;
+
+    background-color: rgba(106, 83, 112, .6);
+    border-radius: 8px; 
+    border: none;
+
+    color: white; 
+
+    cursor: pointer;
+    transition: background-color 250ms;
+    
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(106, 83, 112);
+}
+
+
+/* Movie Card */ 
+.card{
+    background-color: white;
+
+    padding: 2rem 4rem;
+    margin: 3rem 4rem;
+    border-radius: 10px; 
+    box-shadow: 1px 1px 5px rgba(0,0,0,.25); 
+}
+
+.card-content{
+    display: flex;
+    flex-flow: column wrap; 
+
+    align-items: flex-start;
+}
+
+.card-image{
+    margin: 0 auto; 
+    display: block;
+}
